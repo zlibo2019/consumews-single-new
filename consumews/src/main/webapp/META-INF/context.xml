@@ -28,8 +28,8 @@
     <!--
     <Valve className="org.apache.catalina.valves.CometConnectionManagerValve" />
     -->
-    <Resource username="sa" password="weds123!@#" auth="Container"
+    <Resource username="sa" password="123" auth="Container"
               driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver" maxActive="20" maxIdle="3" maxWait="-1" name="jdbc/consumedb1"
-              type="javax.sql.DataSource" url="jdbc:sqlserver://10.0.96.122:1433;DatabaseName=weiwancun;"/>
+              type="javax.sql.DataSource" url="jdbc:sqlserver://127.0.0.1:1433;DatabaseName=scm_main_在线_原始;"/>
 </Context>
 

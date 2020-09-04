@@ -149,6 +149,8 @@
             <groupId>com.garen.garenframe</groupId>
             <artifactId>garenframe-web</artifactId>
             <version>1.0.0</version>
+            <scope>system</scope> <!--system，类似provided，需要显式提供依赖的jar以后，Maven就不会在Repository中查找它-->
+            <systemPath>${basedir}/lib/garenframe.jar</systemPath> <!--项目根目录下的lib文件夹下-->
         </dependency>
 
         <dependency>
